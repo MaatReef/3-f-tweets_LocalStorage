@@ -1,0 +1,49 @@
+body{
+    background:rgb(243, 243, 243);
+}
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+.contact
+{
+    position: fixed;
+    right: 6px;
+    top: 90%;
+    z-index: 20;
+}
+.contact .wpp
+{
+    float: right;
+    clear: right;
+    margin: 6px;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.contact .wpp:hover
+{   
+    transform: scale(1.5) rotate(1turn);
+    transition: all 0.7s ease-in-out;
+}
